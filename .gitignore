@@ -1,0 +1,12 @@
+# Environment & Config
+.env
+.env.*
+config.php
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/

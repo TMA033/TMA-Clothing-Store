@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  padding: 0 20px;
+  height: 60px;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: black;
+  text-decoration: none; /* no underline */
+  color: white;
+}
+
+.logo:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.logo:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* Search bar */
+.search-container {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 20px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: black;
+}
+
+.search-btn {
+  padding: 0 15px;
+  background-color: #dcdcdc;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  height: 24px;
+}
+
+
+
+/* Right-side icons */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-item {
+  font-size: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  text-decoration: none;
+}
+
+
+.nav-item button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+.bold {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.cart-icon,
+.profile-icon {
+  width: 26px;
+  height: 26px;
+  filter: invert(1);
+}
